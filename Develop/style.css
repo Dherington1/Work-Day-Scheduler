@@ -1,0 +1,105 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+/* connect to the text area */
+.description{
+  white-space: pre-wrap;
+}
+
+/* connected to the section tags */
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* styling of the row class which is in charge of each section */
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+/* Section to give hours a dotted line */
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  padding-top: 30px; 
+}
+
+
+.lead{
+  font-size: 25px;
+}
+
+/* sections to color based on time of day  */
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+
+/* save button styling */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+/* clear tasks title */ 
+#clear{
+  font-size: 30px;
+  border-bottom: 3px solid black;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* buttons to clear local storage */
+.btn{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  font-size: 18px;
+  opacity: .6;
+  color: black;
+}
+.btn:hover{
+opacity: 1;
+}
+
